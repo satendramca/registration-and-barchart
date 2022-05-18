@@ -2,6 +2,7 @@ import React from 'react'
 import "./App.scss";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Chart from './Component/Chart';
 
 const FormValidation = () => {
 
@@ -70,7 +71,7 @@ const FormValidation = () => {
     
       return (
         <div className="container-grid">
-          {/* <div className="container-grid-item">Graph</div> */}
+          <div className="container-grid-item"><Chart/></div>
     
           <div className="container-grid-item container">
             
@@ -96,9 +97,8 @@ const FormValidation = () => {
               <input type="number" name="lastName" onChange={handleChange} />
               <p className="form__error">{formErrors.lastName}</p>
               <br /> 
-              <input  className="checkbox__align" type="checkbox" name="confirm" onChange={handleChange}/>
-              {/* <p>{formErrors.confirm}</p> */}
-              <label className="container__label">Term and conditions</label><br/>
+              {/* <input  className="checkbox__align" type="checkbox" name="confirm" onChange={handleChange}/> */}
+              {/* <label className="container__label">Term and conditions</label><br/> */}
               <button type="submit" className="container__btn">
                 {" "}
                 Create account
