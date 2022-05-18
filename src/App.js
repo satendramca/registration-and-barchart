@@ -2,7 +2,6 @@ import "./App.scss";
 import FormValidation from "./FormValidation";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Chart from "./Component/Chart";
-
 function App() {
   return (
     <div>
