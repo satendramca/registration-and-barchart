@@ -1,17 +1,9 @@
 import React from 'react'
-
-
 import "./App.scss";
 import { useState, useEffect } from "react";
-import { Router } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
-// import { path } from 'd3';
-// import NextPage from "./NextPage";
-// import Success from './Success';
 
 const FormValidation = () => {
-
-
 
       const initialValues = { email: "", password: "", confirmPassword: "", firstName: "", lastName: "", confirm: "" };
       const [formValues, setFormValues] = useState(initialValues);
@@ -32,10 +24,7 @@ const FormValidation = () => {
         console.log(err);
         const anyErrror = Object.keys(err).length;
         console.log(anyErrror);
-        // setIsSubmit(true);
         if(!anyErrror){
-          // setFormErrors(validate(formValues));
-          // console.log("error")
           navigate("/success");
        }
       };
@@ -81,7 +70,6 @@ const FormValidation = () => {
     
       return (
         <div className="container-grid">
-          {/* <NextPage/> */}
           {/* <div className="container-grid-item">Graph</div> */}
     
           <div className="container-grid-item container">
