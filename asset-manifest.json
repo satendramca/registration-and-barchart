@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/registration-and-barchart/static/css/main.b58edc75.css",
+    "main.js": "/registration-and-barchart/static/js/main.1796db6d.js",
+    "index.html": "/registration-and-barchart/index.html",
+    "main.b58edc75.css.map": "/registration-and-barchart/static/css/main.b58edc75.css.map",
+    "main.1796db6d.js.map": "/registration-and-barchart/static/js/main.1796db6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b58edc75.css",
+    "static/js/main.1796db6d.js"
+  ]
+}
